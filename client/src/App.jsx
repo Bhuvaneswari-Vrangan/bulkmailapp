@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { HashRouter } from 'react-router-dom'
+import { Navigate, NavLink, Route, Routes, useNavigate } from "react-router-dom";
 import Login from "./pages/Login.jsx";
 import Compose from "./pages/Compose.jsx";
 import History from "./pages/History.jsx";
