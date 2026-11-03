@@ -7,7 +7,7 @@ import "./styles.css";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <BrowserRouter>
-      <Bulkmailapp />
+      <App />
     </BrowserRouter>
   </React.StrictMode>
 );
